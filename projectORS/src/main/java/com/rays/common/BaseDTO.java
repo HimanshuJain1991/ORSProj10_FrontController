@@ -8,6 +8,7 @@ import java.util.LinkedHashMap;
 import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Lob;
 import javax.persistence.MappedSuperclass;
 
 import org.hibernate.annotations.GenericGenerator;
@@ -32,6 +33,7 @@ public abstract class BaseDTO implements Serializable, DropdownList, Comparable<
 	/**
 	 * Contains USER ID who created this database record
 	 */
+	
 	@Column(name = "CREATED_BY", length = 50)
 	protected String createdBy = "root";
 	/**

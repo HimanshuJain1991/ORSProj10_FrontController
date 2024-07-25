@@ -1,3 +1,4 @@
+
 package com.rays.common;
 
 import java.io.PrintWriter;
@@ -9,8 +10,6 @@ import javax.servlet.http.HttpSession;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
-
-import com.rays.dto.UserDTO;
 
 /**
  * Front controller verifies if user id logged in

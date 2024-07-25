@@ -9,6 +9,8 @@ import { analyzeAndValidateNgModules } from '@angular/compiler';
   selector: 'app-user-list',
   templateUrl: './user-list.component.html',
   styleUrls: ['./user.component.css']
+
+  
 })
 export class UserListComponent extends BaseListCtl {
   imageToShow: any;

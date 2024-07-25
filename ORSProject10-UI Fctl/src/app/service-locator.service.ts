@@ -34,6 +34,7 @@ export class ServiceLocatorService {
       callback(params)
     });
   }
+  
 
   /**
    * Forward to page 
